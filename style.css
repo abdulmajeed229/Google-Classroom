@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main{
+    min-height: 100vh;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    height: 50px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-bottom:1px solid rgb(209, 203, 203) ;
+}
+.left{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.left span{
+    color: rgb(105, 101, 101);
+    font-size: 24px;
+    padding-left: 20px;
+}
+.left img{
+    height: 40px;
+    padding-left: 10px;
+}
+.left .h1{
+    font-family: sans-serif;
+    color: rgb(103, 110, 108);
+}
+.left .h1:hover{
+color: green;
+text-decoration: underline;
+cursor: pointer;
+
+}
+.right img{
+    height: 35px;
+    padding-right: 20px;
+}
+.right .plus{
+    color: rgb(68, 64, 64);
+    margin-left: 10px;
+
+    }
+.right i{
+    color: rgb(68, 64, 64);
+    padding: 20px;
+
+}
+aside{
+    min-height: 100%;
+    width: 280px;
+    background-color: white;
+    border-right: 1px solid rgb(209, 203, 203);
+   
+}
+.aside-up{
+    height: 100px;
+    width: 100%;
+  
+   border:1px solid rgb(209, 203, 203) ;
+   border-right: none;
+   border-top: none;
+
+}
+.aside-mid{
+    height: 150px;
+    width: 100%;
+    border:1px solid rgb(209, 203, 203) ;
+    border-right: none;
+    border-top: none;
+   
+}
+.aside-down{
+    height: 150px;
+    width: 100%;
+    border:1px solid rgb(209, 203, 203) ;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+   
+}
+.clae i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+   
+
+}
+.hom i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+
+}
+.clae span{
+  margin-left: 30px;
+  font-size: 14px;
+  color: rgb(64, 66, 64);
+}
+.hom span{
+  margin-left: 30px;
+  font-size: 14px;
+  color: rgb(64, 66, 64);
+}
+.clae{
+    height: 35px;
+    border-radius:  0px 60px 60px 0px;
+    width: 260px;
+    font-size: 15px;
+    line-height: 40px;
+   
+}
+.hom{
+    height: 35px;
+    margin-top: 10px;
+    border-radius:  0px 60px 60px 0px;
+    width: 260px;
+    line-height: 40px;
+
+
+}
+.clae:hover{
+    background-color: rgb(240, 236, 236);
+}
+
+.hom:hover{
+    background-color: rgb(240, 236, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aside-mid-up{
+    height: 40px;
+    width: 260px;
+    border-radius:  0px 60px 60px 0px;
+    margin-top: 20px;
+    line-height: 40px;
+    
+  
+}
+.aside-mid-mid{
+    height: 40px;
+    width: 260px;
+    border-radius:  0px 60px 60px 0px;
+    line-height: 40px;
+   
+}
+.aside-mid-down{
+    height: 43px;
+    width: 260px;
+    display: flex;
+    border-radius:  0px 60px 60px 0px;
+    align-items: center;
+    line-height: 40px;
+   
+}
+.aside-mid-up i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+}
+.aside-mid-mid i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+}
+.aside-mid-up span{
+    color: rgb(64, 66, 64);
+    font-size: 14px;
+    margin-left: 25px;
+}
+.aside-mid-mid span{
+    color: rgb(64, 66, 64);
+    font-size: 14px;
+    margin-left: 25px;
+}
+.aside-mid-down img{
+    height: 30px;
+    margin-left: 25px;
+   padding-top: 5px;
+}
+.aside-mid-down span{
+    color: rgb(64, 66, 64);
+    font-size: 14px;
+    padding-left: 30px;
+}
+.aside-mid-up:hover{
+    background-color: rgb(240, 236, 236);
+}
+.aside-mid-mid:hover{
+    background-color: rgb(240, 236, 236);
+}
+.aside-mid-down:hover{
+    background-color: rgb(240, 236, 236);
+}
+.aside-down-up{
+    height: 40px;
+    width: 260px;
+    margin-top: 20px;
+
+    border-radius:  0px 60px 60px 0px;
+    line-height: 40px;
+}
+.aside-down-down{
+
+    height: 40px;
+    width: 260px;
+    border-radius:  0px 60px 60px 0px;
+   
+    line-height: 40px;
+}
+.aside-down-up i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+}
+.aside-down-up span{
+    color: rgb(64, 66, 64);
+    margin-left: 25px;
+    font-size: 14px;
+}
+.aside-down-down i{
+    color: rgb(73, 73, 72);
+    margin-left: 30px;
+}
+.aside-down-down span{
+    color: rgb(64, 66, 64);
+    margin-left: 25px;
+    font-size: 14px;
+}
+.aside-down-up:hover{
+    background-color: rgb(240, 236, 236);
+}
+.aside-down-down:hover{
+    background-color: rgb(240, 236, 236);
+}
+.section-center{
+    min-height: 94vh;
+    width: auto;
+    display: flex;
+    background-color: rgb(255, 0, 0);
+}
+.right-right{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.card-sir{
+    height: 290px;
+    width: 300px;
+    border:1px solid rgb(209, 203, 203) ;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.back-pic{
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(https://gstatic.com/classroom/themes/img_bookclub.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-pic h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.back-pic span i{
+    color: white;
+    float: right;
+    font-size: 23px;
+line-height: -90px;
+    padding-right: 15px;
+}
+.back-pic .bat{
+    color: white;
+    padding-left: 15px;
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+}
+.back-pic .name{
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: block;
+    font-size: 14px;
+
+}
+.back-pic img{
+    border-radius: 50%;
+    float: right;
+    margin-right:30px;
+}
+.icoon{
+    height: 20px;
+    margin-top: 120px;
+    border-radius: 0px 0px 10px 10px;
+    width: auto;
+    border-top: 1px solid rgb(209, 203, 203);
+    background-color: rgb(255, 255, 255);
+}
+.icoon i{
+    color: black;
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width : 620px){
+    aside{
+        display: none;
+    }
+    .right  span{
+        display: none;
+    }
+    .right .plus{
+        display: block;
+    }
+    .right img{
+        display: none;
+    }
+    .right{
+        background-color: transparent;
+    }
+
+   }
